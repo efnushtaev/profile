@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .main {
+    flex: 1;
+    background: #fff;
+    padding-left: calc(50% - 600px);
+    padding-top: 80px;
+  }
+  .content {
+    flex: 1;
+    background: #fff;
+    padding-right: calc(50% - 600px);
+    padding-top: 80px;
+  }
