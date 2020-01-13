@@ -8,7 +8,6 @@ import Header from './Header/Header';
 let Profile = () => {
     return (
         <div className={classes.container}>
-            <h2>Profile</h2>
             <Header />
             <ProfileInfo />
             <Navig />

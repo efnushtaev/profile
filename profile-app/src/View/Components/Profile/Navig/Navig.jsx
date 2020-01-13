@@ -6,7 +6,9 @@ let Navig = () => {
     return (
         <div className={classes.container}>
             <h3>Navig</h3>
-            <NavLink to='/landing'>Landings</NavLink>
+            <NavLink to='/'>Blog</NavLink>
+            <NavLink to='/landings'>Landings</NavLink>
+            <NavLink to='/snippets'>Snippets</NavLink>
         </div>
     )
 }

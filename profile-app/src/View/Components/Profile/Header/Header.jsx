@@ -1,14 +1,14 @@
 import React from 'react';
 import classes from './Header.module.scss';
+import HeaderTitle from './HeaderTitle/HeaderTitle';
 
 let Header = () => {
     return (
         <div className={classes.container}>
-            <div className={classes.title}>
-                <p className={classes.title_header}>Ef<span className={classes.title_headerAccent}>.</span>Nushtaev
-                    </p>
+            <HeaderTitle />
+            <div>
+                <div className={classes.avatar}></div>
             </div>
-            
         </div>
     )
 }

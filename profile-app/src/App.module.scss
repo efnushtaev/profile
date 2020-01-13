@@ -1,20 +1,24 @@
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
   }
 
   .main {
     flex: 1;
+    width: 50%;
     background: #fff;
     padding-left: calc(50% - 600px);
     padding-top: 80px;
   }
   .content {
     flex: 1;
-    background: #fff;
+    width: 50%;
+
+    background: #EBECF3;
     padding-right: calc(50% - 600px);
     padding-top: 80px;
+    height: 100vh;
   }
