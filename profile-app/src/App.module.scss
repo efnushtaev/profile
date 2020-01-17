@@ -4,7 +4,11 @@
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+    }
   }
+
 
   .main {
     flex: 1;
@@ -12,13 +16,19 @@
     background: #fff;
     padding-left: calc(50% - 600px);
     padding-top: 80px;
+    @media screen and (max-width: 900px) {
+      width: 100%;
+    }
   }
+
   .content {
     flex: 1;
     width: 50%;
-
     background: #EBECF3;
     padding-right: calc(50% - 600px);
     padding-top: 80px;
     height: 100vh;
+    @media screen and (max-width: 900px) {
+      width: 100%;
+    }
   }

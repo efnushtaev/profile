@@ -3,6 +3,11 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+.subHeader {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
 
 .title {
     width: 100%;
@@ -27,9 +32,9 @@
 }
 
 .avatar {
+    margin: 0 20px;
     position: relative;
     top: -16px;
-    left: 100px;
     width: 140px;
     height: 140px;
     background: url('./../../../Assets/avatar.jpg') center center no-repeat;
@@ -39,7 +44,7 @@
         content: '';
         position: absolute;
         right: -36px;
-        top: 43px;
+        top: 57px;
         width: 0;
         height: 0;
         border-top: 20px solid transparent;
