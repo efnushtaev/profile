@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './CvButton.module.scss';
+import classes from './../../../../Styles/modules/profile/header/CvButton.module.scss';
 
 let CvButton = () => {
     return (

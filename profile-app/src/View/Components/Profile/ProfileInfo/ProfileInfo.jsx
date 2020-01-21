@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './ProfileInfo.module.scss';
+import classes from './../../../Styles/modules/profile/profileInfo/ProfileInfo.module.scss';
 
 let ProfileInfo = () => {
     return (

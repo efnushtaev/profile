@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Profile.module.scss';
+import classes from './../../Styles/modules/profile/Profile.module.scss';
 import Footer from './Footer/Footer';
 import Navig from './Navig/Navig';
 import ProfileInfo from './ProfileInfo/ProfileInfo';

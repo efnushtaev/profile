@@ -1,4 +1,4 @@
-@import './../../../Config/config.scss';
+@import './../../../../Config/config.scss';
 
 .container {
     color: red;
@@ -39,7 +39,7 @@
     top: -16px;
     width: 140px;
     height: 140px;
-    background: url('/profile-app/src/View/Assets/avatar.jpg') center center no-repeat;
+    background: url('./../../#{$IMG_PATH}avatar.jpg') center center no-repeat;
     background-size: cover;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
     &::after {

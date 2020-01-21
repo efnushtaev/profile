@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from './Header.module.scss';
-import HeaderTitle from './HeaderTitle/HeaderTitle';
-import CvButton from './CvButton.jsx/CvButton';
+import classes from './../../../Styles/modules/profile/header/Header.module.scss';
+import CvButton from './CvButton/CvButton';
+import HeaderTitle from './HeaderTitle/HeaderTitle'
 
 let Header = () => {
     return (

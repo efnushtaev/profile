@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Snippets.module.scss';
+import classes from './../../../Styles/modules/content/Snippets.module.scss';
 
 let Snippets = () => {
     return (
