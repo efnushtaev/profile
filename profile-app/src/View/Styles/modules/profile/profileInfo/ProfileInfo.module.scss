@@ -1,3 +1,70 @@
+@import './../../../../Config/config.scss';
+
 .container {
     color: darkorange;
+    margin-bottom: 36px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 10px;
+
+    .name {
+        width: 100%;
+        background: #000;
+        padding: 12px 32px;
+        box-sizing: border-box;
+
+        p {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 23px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+
+    .contacts {
+        width: 100%;
+        background: #000;
+        padding: 12px 32px;
+        box-sizing: border-box;
+
+        p {
+            font-family: Raleway;
+            font-style: italic;
+            text-transform: lowercase;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+            color: #FFFFFF;
+            font-feature-settings: 'pnum'on, 'lnum'on;
+        }
+
+        .links {
+            margin-top: 16px;
+            margin-bottom: 8px;
+            display: flex;
+
+            a {
+                margin-right: 16px;
+                width: 30px;
+                height: 30px;
+            }
+
+            a:nth-child(1) {
+                background: url('./../../#{$IMG_PATH}github.svg') center center no-repeat;
+            }
+
+            a:nth-child(2) {
+                background: url('./../../#{$IMG_PATH}codepen.svg') center center no-repeat;
+            }
+
+            a:hover {
+                opacity: .8;
+                transition: .3s;
+            }
+        }
+    }
+
 }

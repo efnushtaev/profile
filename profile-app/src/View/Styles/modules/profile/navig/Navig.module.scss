@@ -1,3 +1,24 @@
+@import './../../../../Config/config.scss';
+
 .container {
-    color: darkcyan;
+    color: darkorange;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    div {
+        width: 100%;
+        background: #000;
+        padding: 12px 32px;
+        box-sizing: border-box;
+
+        p {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
 }

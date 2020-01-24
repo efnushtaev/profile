@@ -3,8 +3,21 @@ import classes from './../../../Styles/modules/profile/profileInfo/ProfileInfo.m
 
 let ProfileInfo = () => {
     return (
-        <div className={classes.container}>
-            <h3>ProfileInfo</h3>
+        <div>
+            <div className={classes.container}>
+                <div className={classes.name}>
+                    <p>Efim Nushtaev, <br/>Frontend developer</p>
+                </div>
+            </div>
+            <div className={classes.container}>
+                <div className={classes.contacts}>
+                    <p>efnushtaev@gmail.com  <br/>+7 (911) 087 6779</p>
+                <div className={classes.links}>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+                </div>
+            </div>
         </div>
     )
 }
