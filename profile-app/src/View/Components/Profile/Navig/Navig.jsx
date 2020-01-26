@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './../../../Styles/modules/profile/navig/Navig.module.scss';
+import classes from './../../../Styles/modules/Navig.module.scss';
 import {NavLink} from 'react-router-dom';
 
 let Navig = () => {

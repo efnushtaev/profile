@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './../../../Styles/modules/profile/profileInfo/ProfileInfo.module.scss';
+import classes from './../../../Styles/modules/ProfileInfo.module.scss';
 
 let ProfileInfo = () => {
     return (
@@ -11,7 +11,7 @@ let ProfileInfo = () => {
             </div>
             <div className={classes.container}>
                 <div className={classes.contacts}>
-                    <p>efnushtaev@gmail.com  <br/>+7 (911) 087 6779</p>
+                    <p>efnushtaev@gmail.com<br/>+7 (911) 087 6779</p>
                 <div className={classes.links}>
                     <a href="#"></a>
                     <a href="#"></a>

@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './../../../Styles/modules/profile/header/Header.module.scss';
+import classes from './../../../Styles/modules/Header.module.scss';
 import CvButton from './CvButton/CvButton';
 import HeaderTitle from './HeaderTitle/HeaderTitle'
 

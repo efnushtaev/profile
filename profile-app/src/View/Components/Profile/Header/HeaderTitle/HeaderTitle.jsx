@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './../../../../Styles/modules/profile/header/HeaderTitle.module.scss';
+import classes from './../../../../Styles/modules/HeaderTitle.module.scss';
 
 let HeaderTitle = () => {
     return (

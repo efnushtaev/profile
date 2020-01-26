@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './../../../Styles/modules/content/Landings.module.scss';
+import classes from './../../../Styles/modules/Landings.module.scss';
 
 let Landings = () => {
     return (
