@@ -1,23 +1,26 @@
 @import './../../Config/config.scss';
 
 .container {
-  padding: 0 18.75%;
+  // padding: 0 17.1875%;
+  // max-width: 1260px;
+  width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
     background: url('#{$IMG_PATH}main_bg.svg') no-repeat;
-    background-position: calc(18.75% - 100px) top;
+    background-position: center top;
     @media screen and (max-width: 900px) {
       flex-direction: column;
     }
   }
 
   .main {
-    flex: 3 1;
+    flex: 3 1 420px;
+    max-width: 420px;
     // width: 26.042%;
-    padding-left: auto;
+    // padding-left: auto;
     padding-top: 80px;
 
     height: 900px;
@@ -27,9 +30,9 @@
   }
 
   .content {
-    flex: 7 1;
+    flex: 6 1 840px;
     background: #EBECF3;
-
+max-width: 840px;
     padding-top: 80px;
     height: 900px ;
     @media screen and (max-width: 900px) {
