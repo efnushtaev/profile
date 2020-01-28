@@ -9,6 +9,7 @@ let Content = () => {
         <div className={classes.container}>
             <Route path="/landings" render={() => <Landings />} />
             <Route path="/snippets" render={() => <Snippets />} />
+            {/* <Route path="/blog" render={() => <Blog />} /> */}
             <div style={{backgroundColor:"red"}}>askhjdhakjdshkjadhjksdahkjsadhjkasdkhasdkh ajlsaljdasdlk</div>
         </div>
     )
