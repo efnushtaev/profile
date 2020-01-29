@@ -2,14 +2,44 @@
 
 .container {
     color: darkorange;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-bottom: 36px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
 
     div {
+        display: flex;
+        flex-direction: column;
         width: 100%;
         background: #000;
         padding: 12px 32px;
         box-sizing: border-box;
+
+        .active {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 33px;
+            text-decoration: none;
+            color: #EFDE47;
+            opacity: 1;
+        }
+
+        a {
+            padding: 10px 0px;
+            text-decoration: none;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 26px;
+            color: #FFFFFF;
+            opacity: 0.6;
+            &:hover {
+                opacity: 1;
+            }
+        }
 
         p {
             font-family: Raleway;

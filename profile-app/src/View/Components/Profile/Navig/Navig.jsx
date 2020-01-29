@@ -6,9 +6,9 @@ let Navig = () => {
     return (
         <div className={classes.container}>
             <div>
-                <NavLink to='/'>Blog</NavLink>
-                <NavLink to='/landings'>Landings</NavLink>
-                <NavLink to='/snippets'>Snippets</NavLink>
+                <NavLink activeClassName={classes.active} to='/Blog'>Blog</NavLink>
+                <NavLink activeClassName={classes.active} to='/landings'>Landings</NavLink>
+                <NavLink activeClassName={classes.active} to='/snippets'>Snippets</NavLink>
             </div>
         </div>
     )
