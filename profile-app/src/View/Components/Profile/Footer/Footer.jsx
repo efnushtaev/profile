@@ -4,7 +4,7 @@ import classes from './../../../Styles/modules/Footer.module.scss';
 let Footer = () => {
     return (
         <div className={classes.container}>
-            <h3>Footer</h3>
+            <p>All Rights Reserved 2020</p>
             
         </div>
     )
