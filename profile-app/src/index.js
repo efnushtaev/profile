@@ -3,19 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import store from './View/Redux/Store';
+import store from './View/Redux/store-redux';
 import {BrowserRouter} from 'react-router-dom';
+import {Provider} from 'react-redux';
 
-let rerenderTree = (state) => {
-    ReactDOM.render(
+ReactDOM.render(
     <BrowserRouter>
-        <App state={state}/>
+    <Provider store={store}>
+
+        <App/>
+    </Provider>
     </BrowserRouter>, document.getElementById('root'));
-}
 
-rerenderTree(store.getState())
-
-store.subscribe(rerenderTree)
 
 
 serviceWorker.unregister();

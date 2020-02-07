@@ -1,12 +1,16 @@
 let initialState = {
-    landings: [
-        'red',
-        'blue',
-        'indigo'
-    ]
+    content: {
+        landings: [{
+            id: '1',
+            title: 'first'
+        }, {
+            id: '2',
+            title: 'Second'
+        } ]
+    }
 }
 
-const landingPageReducer = (state = initialState, action) => {
+export const landingPageReducer = (state = initialState, action) => {
     return state;
 }
 
