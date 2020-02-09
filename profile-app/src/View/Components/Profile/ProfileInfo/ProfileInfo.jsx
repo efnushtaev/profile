@@ -1,19 +1,22 @@
 import React from 'react';
 import classes from './../../../Styles/modules/ProfileInfo.module.scss';
 
-let ProfileInfo = () => {
+let ProfileInfo = (props) => {
+    debugger;
     return (
         <div>
             <div className={classes.container}>
                 <div className={classes.name}>
-                    <p>Efim Nushtaev, <br/>Frontend developer</p>
+                    <p>{props.name}</p>
+                    <p>{props.profession}</p>
                 </div>
                 <div className={classes.contacts}>
-                    <p>efnushtaev@gmail.com<br/>+7 (911) 087 6779</p>
-                <div className={classes.links}>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                </div>
+                    <p>{props.mail}</p>
+                    <p>{props.phone}</p>
+                    <div className={classes.links}>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -11,7 +11,6 @@ let Content = () => {
             <Route path="/landings" render={() => <LandingsContainer />} />
             <Route path="/snippets" render={() => <Snippets />} />
             <Route path="/blog" render={() => <Blog />} />
-            {/* <Route exact to="" render={() => { return <div style={{backgroundColor:"red"}}>askhjdhakjdshkjadhjksdahkjsadhjkasdkhasdkh ajlsaljdasdlk</div>}} /> */}
         </div>
     )
 }

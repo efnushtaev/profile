@@ -1,20 +1,18 @@
 import React, { Fragment } from 'react';
-import { Route } from 'react-router-dom';
-import Profile from './View/Components/Profile/Profile';
 import Content from './View/Components/Content/Content';
-import Landings from './View/Components/Content/Landings/Landings';
 import classes from './View/Styles/modules/App.module.scss';
+import ProfileContainer from './View/Components/Profile/ProfileContainer';
 
 function App() {
   return (
-      <div className={classes.container}>
-        <div  className={classes.main}>
-          <Profile /> 
-        </div>
-        <div className={classes.content}>
-          <Content />
-        </div>
+    <div className={classes.container}>
+      <div className={classes.main}>
+        <ProfileContainer />
       </div>
+      <div className={classes.content}>
+        <Content />
+      </div>
+    </div>
   );
 }
 
