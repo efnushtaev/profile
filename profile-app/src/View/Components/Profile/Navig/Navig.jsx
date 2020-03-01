@@ -3,7 +3,6 @@ import classes from './../../../Styles/modules/Navig.module.scss';
 import {NavLink} from 'react-router-dom';
 
 let Navig = (props) => {
-    debugger
     return (
         <div className={classes.container}>
             <div>

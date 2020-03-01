@@ -1,12 +1,11 @@
 import React from 'react';
-// import classes from './../../../Styles/modules/MyWorks.module.scss';
+import classes from './../../../Styles/modules/MyWorks.module.scss';
 
 let MyWorks = (props) => {
     return (
-        <div>
+        <div className={classes.container}>
             {props.thumbnails.map(e =>
                 <div>
-                    <span>{e.title}</span>
                     <img src={e.picture} alt="" />
                 </div>
             )}

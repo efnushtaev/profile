@@ -1,6 +1,7 @@
 import myWorksData from '../../View/Data/myWorks/myWorksData';
 
 const SET_CURRENT_SCROLLTOP = 'SET_CURRENT_SCROLLTOP';
+
 const initialState = {
     ...myWorksData
 }

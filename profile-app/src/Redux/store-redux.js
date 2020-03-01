@@ -1,9 +1,9 @@
 import {combineReducers, createStore} from 'redux';
-import landingPageReducer from './reducer/landings-reducer';
+import myWorksPageReducer from './reducer/myWorks-reducer';
 import constantsReducer from './reducer/constants-reducer';
 
 let reducers = combineReducers({
-    landingPage: landingPageReducer,
+    myWorksPage: myWorksPageReducer,
     constants: constantsReducer
 })
 

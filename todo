@@ -40,7 +40,7 @@ state = {
             title: blogData[1].title,
             date: blogData[1].date,
             hashTags: blogData[1].hashTags,
-            preview: blogData[1].article--slice
+            preview: blogData[1].article
         }],
         blogSectionArticle: [{
             id: blogData[1].id,

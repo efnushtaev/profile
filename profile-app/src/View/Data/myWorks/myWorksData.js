@@ -6,6 +6,11 @@ const myWorksData = {
         id: 1,
         title: 'MyCompany',
         picture: thumbnailsPictures.myCompany
+    },
+    {
+        id: 2,
+        title: 'betamasano',
+        picture: thumbnailsPictures.betamasano
     }],
 }
 

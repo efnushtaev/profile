@@ -1,9 +1,8 @@
 .container {
     position: relative;
     background: #4762EF;
-    margin-left: 30px;
-    margin-right: 30px;
-    top: 12px;
+    margin-top: 12px;
+    margin-bottom: 20px;
     &:before {
         content: '';
         background: #4762EF;

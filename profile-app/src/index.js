@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './fonts.scss';
 import './index.scss';
-import App from './App';
+import AppContainer from './AppContainer';
 import * as serviceWorker from './serviceWorker';
 import store from './Redux/store-redux';
 import {BrowserRouter} from 'react-router-dom';
@@ -12,7 +12,7 @@ ReactDOM.render(
     <BrowserRouter>
         <Provider store={store}>
 
-            <App/>
+            <AppContainer/>
         </Provider>
     </BrowserRouter>, document.getElementById('root'));
 

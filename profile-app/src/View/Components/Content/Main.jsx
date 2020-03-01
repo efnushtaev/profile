@@ -3,7 +3,7 @@ import classes from './../../Styles/modules/Main.module.scss'
 
 let Main = () => {
     return (
-        <div>
+        <div className={classes.container}>
             <div className={classes.item}>
                 <p>2015</p>
                 <p>individual entrepreneur and freelancer</p>

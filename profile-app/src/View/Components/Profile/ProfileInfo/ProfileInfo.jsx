@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './../../../Styles/modules/ProfileInfo.module.scss';
 
 let ProfileInfo = (props) => {
-    debugger;
     return (
         <div>
             <div className={classes.container}>
