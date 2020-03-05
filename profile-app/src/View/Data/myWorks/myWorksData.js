@@ -4,13 +4,15 @@ const myWorksData = {
 
     thumbnails: [{
         id: 1,
-        title: 'MyCompany',
-        picture: thumbnailsPictures.myCompany
+        title: 'Piroll Represent Page',
+        picture: thumbnailsPictures.Piroll,
+        url: 'https://efnushtaev.github.io/Landings/Landing__3/index.html'
     },
     {
         id: 2,
-        title: 'betamasano',
-        picture: thumbnailsPictures.betamasano
+        title: '9shop Market',
+        picture: thumbnailsPictures.Nineshop,
+        url: 'https://9-shop.ru/'
     }],
 }
 

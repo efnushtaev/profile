@@ -5,9 +5,14 @@ let MyWorks = (props) => {
     return (
         <div className={classes.container}>
             {props.thumbnails.map(e =>
-                <div>
+            <a target="_bind" href={e.url}>
+                <div className={classes.itemContainer}>
+                    <div>
+                        <span>{e.title}</span>
+                    </div>
                     <img src={e.picture} alt="" />
                 </div>
+            </a>
             )}
         </div>)
 }
