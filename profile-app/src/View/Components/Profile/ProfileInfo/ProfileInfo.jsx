@@ -13,8 +13,8 @@ let ProfileInfo = (props) => {
                     <p>{props.mail}</p>
                     <p>{props.phone}</p>
                     <div className={classes.links}>
-                        <a href="#"></a>
-                        <a href="#"></a>
+                        <a href="https://github.com/efnushtaev"></a>
+                        <a href="https://codepen.io/efnushtaev"></a>
                     </div>
                 </div>
             </div>

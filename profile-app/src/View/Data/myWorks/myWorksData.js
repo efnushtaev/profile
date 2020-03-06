@@ -13,6 +13,12 @@ const myWorksData = {
         title: '9shop Market',
         picture: thumbnailsPictures.Nineshop,
         url: 'https://9-shop.ru/'
+    },
+    {
+        id: 3,
+        title: 'Innobet Online Betting',
+        picture: thumbnailsPictures.Innobet,
+        url: ''
     }],
 }
 
