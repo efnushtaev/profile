@@ -14,13 +14,13 @@
         box-sizing: border-box;
 
         p {
-            font-family: Raleway, sans-serif;
+            font-family: Noto Sans, sans-serif;
             font-style: normal;
             font-weight: bold;
             font-size: 16px;
             line-height: 23px;
             text-transform: uppercase;
-            color: #FFFFFF;
+            color: #f3f3f3;
         }
     }
 
@@ -31,13 +31,13 @@
         box-sizing: border-box;
 
         p {
-            font-family: Raleway, sans-serif;
+            font-family: Noto Sans, sans-serif;
             font-style: italic;
             text-transform: lowercase;
-            font-weight: 400;
+            font-weight: 200;
             font-size: 16px;
             line-height: 23px;
-            color: #FFFFFF;
+            color: rgb(200, 200, 200);
             font-feature-settings: 'pnum'on, 'lnum'on;
         }
 

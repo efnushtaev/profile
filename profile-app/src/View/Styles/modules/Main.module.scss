@@ -3,17 +3,28 @@
 }
 
 .item {
-    padding-bottom: 40px;
+    padding-bottom: 72px;
+
+    img {
+        padding: 20px 0px;
+        display: block;
+        margin-right: 0px;
+        margin-left: auto;
+    }
+
     p:nth-child(1) {
-        font-family: Noto Sans, sans-serif;
+        font-family: Open Sans, sans-serif;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 300;
         text-align: right;
         font-feature-settings: 'pnum'on, 'lnum'on;
         color: #EBECF3;
+        font-size: 100px;
+        line-height: 100px;
     }
 
     p:nth-child(2) {
+        padding: 16px 0px;
         font-family: Noto Sans, sans-serif;
         font-style: normal;
         font-weight: 900;
@@ -39,22 +50,4 @@
         color: #6B6F8B;
     }
 
-    &:nth-child(1){
-        p:nth-child(1) {
-            font-size: 80px;
-            line-height: 80px;
-        }
-    }
-    &:nth-child(2){
-        p:nth-child(1) {
-            font-size: 100px;
-            line-height: 100px;
-        }
-    }
-    &:nth-child(3){
-        p:nth-child(1) {
-            font-size: 120px;
-            line-height: 120px;
-        }
-    }
 }

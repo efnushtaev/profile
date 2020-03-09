@@ -6,6 +6,9 @@
     width: 100%;
     height: 75px;
     background: #4762EF;
+    & a{
+        text-decoration: none;
+    }
 
     &_header {
         font-family: Raleway, sans-serif;
@@ -18,7 +21,7 @@
         line-height: 75px;
         color: #FFFFFF;
 
-        &>span {
+        & span {
             color: #000
         }
 

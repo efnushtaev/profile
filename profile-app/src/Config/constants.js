@@ -1,8 +1,8 @@
  const config = {
      //HEADER
      //__profileInfo
-     name: 'Efim Nushtaev',
-     profession: 'frontend developer',
+     name: 'Ефим Нуштаев',
+     profession: 'фронтенд разработчик',
      mail: 'efnushtaev@gmail.com',
      phone: '+7 (911) 087 6779',
      //__navig

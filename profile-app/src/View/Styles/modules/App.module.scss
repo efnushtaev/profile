@@ -2,16 +2,14 @@
 
 .container {
   overflow: auto;
-  height: 100vh;
   width: 100%;
-  overflow: auto;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: nowrap;
-  background: url('#{$IMG_PATH}main_bg.svg') no-repeat;
-  background-position: center top;
+  background: url('./../../Assets/img/main/main_bg.svg') center top repeat-y;
   box-sizing: border-box;
 
   @media screen and (max-width: 900px) {
@@ -24,7 +22,7 @@
   max-width: 420px;
   height: 100%;
   box-sizing: border-box;
-  padding: 80px 30px 0px 30px;
+  padding: 60px 30px 0px 30px;
 
   &>div {
     height: 100%;
