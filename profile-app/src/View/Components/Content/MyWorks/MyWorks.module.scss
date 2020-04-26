@@ -1,0 +1,87 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transition: 1s;
+    width: 100%;
+}
+
+.itemContainer {
+    position: relative;
+    box-sizing: border-box;
+    img {
+        display: block;
+        width: 100%;
+    }
+    div {
+        box-sizing: border-box;
+        padding: 10px;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgba(235, 236, 243, 1);
+        transition: .1s;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        .title {
+            margin-top: 10px;
+            width: 100%;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            color: rgba(10, 10, 14, 0.4);
+        }
+        .body {
+            width: 100%;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            color: rgba(10, 10, 14, 0.4);
+        }
+        .year {
+            width: 100%;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            color: rgba(10, 10, 14, 0.4);
+        }
+        .describe {
+            width: 100%;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            // text-transform: uppercase;
+            color: rgba(10, 10, 14, 0.4);
+        }
+        .gitHubLink {
+            text-align: right;
+            margin-left: auto;
+            width: auto;
+            color: #4762ef;
+            &:hover {
+                color: #253baa;
+            }
+        }
+        &:hover {
+            transition: .3s;
+            opacity: 1;
+        }
+    }
+}

@@ -8,9 +8,14 @@
      //__navig
      navigItems: [
          {
-             title: 'Мои работы',
+             title: 'Завершенные проекты',
              url: '/my-works'
-         }]
+         },
+         {
+             title: 'Дизайн',
+             url: '/my-designe'
+         }
+        ]
      //__footer
 
  }

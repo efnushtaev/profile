@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './../../../Styles/modules/MyWorks.module.scss';
+import classes from './MyWorks.module.scss';
 
 let Blog = () => {
     return (
