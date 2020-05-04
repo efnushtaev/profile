@@ -8,10 +8,10 @@ let MyWorks = (props) => {
                         <div className={styles.itemContainer}>
                             <div>
                                 <p className={styles.title}>{e.title}</p>
-                                <p className={styles.body}>{e.body}</p>
+                                <p className={styles.technology}>{e.technology}</p>
                                 <p className={styles.describe}>{e.describe}</p>
                                 <p className={styles.year}>{e.year}</p>
-                                {e.gitHubRepoURL ? <a target="_bind" className={styles.gitHubLink} href={e.gitHubRepoURL}>Открыть на GitHub</a> : null}
+                                <a target="_bind" className={styles.gitHubLink} href={e.gitHubRepoURL}>{e.gitHubRepoURL !== '#' ? "Посмотреть код на GitHub" : null}</a>
                             </div>
                             <img src={e.picture} alt="" />
                         </div>

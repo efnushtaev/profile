@@ -1,52 +1,48 @@
 @import './../../../Config/config.scss';
 
 .container {
-  overflow: auto;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  background: url('./../../Assets/img/main/main_bg.svg') center top repeat-y;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 3fr 1fr;
   box-sizing: border-box;
-
-  @media screen and (max-width: 900px) {
-    flex-direction: column;
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 0fr 1fr 3fr 0fr;
+  }
+  @media screen and (max-width: 959px) {
+    grid-template-columns: 0fr;
+    grid-template-rows: 0fr;
+    display: block;
   }
 }
 
+.empty:nth-child(1) {
+  background: #ebecf3;
+}
 .main {
-  flex: 3 1 420px;
-  max-width: 420px;
-  height: 100%;
-  box-sizing: border-box;
-  padding: 60px 30px 0px 30px;
-
-  &>div {
-    height: 100%;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-around;
-    &>*{
-      box-sizing: border-box
-    }
+  background: #ebecf3;
+  @media screen and (max-width: 959px) {
+    background: #fff; 
   }
-
-  @media screen and (max-width: 900px) {
-    width: 100%;
+  &>*{
+    box-sizing: border-box
   }
+  
+
+
 }
 
 .content {
-  height: 100%;
+  // grid-area: main;
   flex: 6 1 840px;
   box-sizing: border-box;
   max-width: 840px;
   padding: 0 30px;
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 959px) {
     width: 100%;
+    max-width: none;
+    padding: 0 10px 60px;
   }
 }

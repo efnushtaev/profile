@@ -7,6 +7,12 @@
     padding-right: 20px;
     margin-top: 10px;
     height: 300px;
+    @media screen and (max-width: 959px) {
+        padding-left: 10px;
+        padding-right: 10px;
+height: 100%;
+margin-bottom: 10px;
+      }
     div {
         display: flex;
         flex-direction: column;
@@ -27,7 +33,7 @@
             font-family: Noto sans, sans-serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 22px;
+            font-size: 18px;
             line-height: 26px;
             color: #FFFFFF;
             opacity: 0.6;

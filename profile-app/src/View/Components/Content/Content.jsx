@@ -7,12 +7,14 @@ import Blog from './Blog/Blog';
 import Main from './Main';
 
 
-let Content = () => {
+
+let Content = (props) => {
    
     return (
         <>
             <Route exact path="/" render={() => <Main />} />
             <Route path="/my-works" render={() => <MyWorksContainer />} />
+           
         </>
     )
 }

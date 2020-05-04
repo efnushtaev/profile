@@ -3,14 +3,16 @@ import thumbnailsPictures from './thumbnailsPictures.js';
 const gitHubRepoURL = 'https://github.com/efnushtaev/';
 const gitHubPagesURL = 'https://efnushtaev.github.io/';
 
+//If project has no repository gitHubRepoURL should be '#'
+
 
 const myWorksData = {
     thumbnails: [{
         id: 1,
-        title: 'Landing Page #1',
+        title: 'Landing Page #3',
         year: '2017',
-        describe: 'Простой лэндинг. Был выполнен в учебных целях. Не для коммерческого использования',
-        body: 'HTML, CSS',
+        describe: 'Простой лэндинг. Выполнен в учебных целях. Не для коммерческого использования',
+        technology: 'HTML, CSS',
         gitHubRepoURL: gitHubRepoURL + 'Landings/tree/master/NonprofitLanPage_3/',
         picture: thumbnailsPictures.Piroll,
         url: gitHubPagesURL + 'Landings/NonprofitLanPage_3/'
@@ -18,17 +20,18 @@ const myWorksData = {
     {
         id: 2,
         title: '9shop Market',
-        body: 'HTML, CSS, jQuery',
-        describe: 'Интернет магазин. Мной был проведен редизайн по составленному маркетологами ТЗ',
         year: '2019',
-        gitHubRepoURL: null,
+        describe: 'Интернет магазин. Был проведен полный редизайн по составленному маркетологами ТЗ',
+        technology: 'HTML, CSS, jQuery',
+        gitHubRepoURL: '#',
         picture: thumbnailsPictures.Nineshop,
         url: 'https://9-shop.ru/'
     },
     {
         id: 3,
         title: 'Innobet Online Betting',
-        body: 'HTML, CSS',
+        technology: 'HTML, CSS, JS, RESTful',
+        describe: 'Промо лэндинг для сервиса спортивных ставок с регистрацией пользователя по API основного сервиса',
         year: '2019',
         gitHubRepoURL: gitHubRepoURL + 'Landings/tree/master/BettingLanPage_Innobet/',
         picture: thumbnailsPictures.Innobet,
@@ -37,7 +40,8 @@ const myWorksData = {
     {
         id: 4,
         title: 'Nani hotel',
-        body: 'HTML, CSS, jQuery',
+        technology: 'HTML, CSS, JS',
+        describe: 'Лэндинг для минии-отеля с возможность бронирования номеров при помощью плагина realCalendar',
         year: '2019',
         gitHubRepoURL: gitHubRepoURL + 'Landings/tree/master/LanPage_1_Nani/',
         picture: thumbnailsPictures.NaniHotel,
