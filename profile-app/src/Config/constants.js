@@ -12,6 +12,10 @@
              url: '/my-works'
          },
          {
+             title: 'SPA',
+             url: '/my-spa'
+         },
+         {
              title: 'Дизайн',
              url: '/my-designe'
          }

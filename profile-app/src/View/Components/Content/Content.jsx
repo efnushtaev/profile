@@ -14,6 +14,8 @@ let Content = (props) => {
         <>
             <Route exact path="/" render={() => <Main />} />
             <Route path="/my-works" render={() => <MyWorksContainer />} />
+            <Route path="/my-design" render={() => <MyWorksContainer />} />
+            <Route path="/my-spa" render={() => <MyWorksContainer />} />
            
         </>
     )

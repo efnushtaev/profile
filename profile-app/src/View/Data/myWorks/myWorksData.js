@@ -10,7 +10,7 @@ const myWorksData = {
     thumbnails: [{
         id: 1,
         title: 'Landing Page #3',
-        year: '2017',
+        year: '',
         describe: 'Простой лэндинг. Выполнен в учебных целях. Не для коммерческого использования',
         technology: 'HTML, CSS',
         gitHubRepoURL: gitHubRepoURL + 'Landings/tree/master/NonprofitLanPage_3/',
@@ -20,7 +20,7 @@ const myWorksData = {
     {
         id: 2,
         title: '9shop Market',
-        year: '2019',
+        year: '',
         describe: 'Интернет магазин. Был проведен полный редизайн по составленному маркетологами ТЗ',
         technology: 'HTML, CSS, jQuery',
         gitHubRepoURL: '#',
@@ -32,7 +32,7 @@ const myWorksData = {
         title: 'Innobet Online Betting',
         technology: 'HTML, CSS, JS, RESTful',
         describe: 'Промо лэндинг для сервиса спортивных ставок с регистрацией пользователя по API основного сервиса',
-        year: '2019',
+        year: '',
         gitHubRepoURL: gitHubRepoURL + 'Landings/tree/master/BettingLanPage_Innobet/',
         picture: thumbnailsPictures.Innobet,
         url: gitHubPagesURL + 'Landings/BettingLanPage_Innobet/'
@@ -42,7 +42,7 @@ const myWorksData = {
         title: 'Nani hotel',
         technology: 'HTML, CSS, JS',
         describe: 'Лэндинг для минии-отеля с возможность бронирования номеров при помощью плагина realCalendar',
-        year: '2019',
+        year: '',
         gitHubRepoURL: gitHubRepoURL + 'Landings/tree/master/LanPage_1_Nani/',
         picture: thumbnailsPictures.NaniHotel,
         url: 'http://www.jambu9.ru/'
