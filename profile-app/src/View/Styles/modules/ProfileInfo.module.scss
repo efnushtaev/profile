@@ -67,6 +67,10 @@ margin-top: 0px;
             a:nth-child(2) {
                 background: url('#{$IMG_PATH}codepen.svg') center center no-repeat;
             }
+            
+            a:nth-child(3) {
+                background: url('#{$IMG_PATH}linkedin.svg') center center no-repeat;
+            }
 
             a:hover {
                 opacity: 1;

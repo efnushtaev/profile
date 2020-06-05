@@ -8,16 +8,16 @@
      //__navig
      navigItems: [
          {
-             title: 'Завершенные проекты',
-             url: '/my-works'
+             title: 'Лендинги',
+             url: '/landing-pages'
          },
          {
              title: 'SPA',
-             url: '/my-spa'
+             url: '/spa'
          },
          {
              title: 'Дизайн',
-             url: '/my-designe'
+             url: '/design'
          }
         ]
      //__footer

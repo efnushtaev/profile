@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import React from 'react';
 import MyWorks from "./MyWorks";
 import ContentHeader from './../ContentHeader';
-import classes from './../../../Styles/modules/Content.module.scss';
+import classes from './../Content.module.scss';
 
 class MyWorksAPI extends React.Component {
    render() {

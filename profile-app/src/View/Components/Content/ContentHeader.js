@@ -2,7 +2,7 @@ import React from 'react';
 import {
     NavLink
 } from 'react-router-dom';
-import styles from './../../Styles/modules/Content.module.scss'
+import styles from './Content.module.scss'
 
 class ContentHeader extends React.Component {
 
