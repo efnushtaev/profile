@@ -11,7 +11,7 @@ const myWorksData = {
         id: 1,
         title: 'Landing Page #3',
         year: '',
-        describe: 'Простой лэндинг. Выполнен в учебных целях. Не для коммерческого использования',
+        describe: 'Простой лэндинг. Не для коммерческого использования',
         technology: 'HTML, CSS',
         gitHubRepoURL: gitHubRepoURL + 'Landings/tree/master/NonprofitLanPage_3/',
         picture: thumbnailsPictures.Piroll,
