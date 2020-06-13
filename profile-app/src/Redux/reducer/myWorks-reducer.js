@@ -1,4 +1,4 @@
-import myWorksData from '../../View/Data/myWorks/myWorksData';
+import {myWorksData} from './../../Config/constantsContent';
 
 const SET_CURRENT_SCROLLTOP = 'SET_CURRENT_SCROLLTOP';
 
