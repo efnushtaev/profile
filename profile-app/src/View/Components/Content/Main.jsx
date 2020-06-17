@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from './../../Styles/modules/Main.module.scss'
+import classes from './../../Styles/modules/Main.module.scss';
 
-let Main = () => {
+let Main = ()=> {
     return (
         <div className={classes.container}>
             {/* <div className={classes.item}>

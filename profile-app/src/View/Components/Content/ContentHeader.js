@@ -1,11 +1,8 @@
 import React from 'react';
-import {
-    NavLink
-} from 'react-router-dom';
-import styles from './Content.module.scss'
+import { NavLink } from 'react-router-dom';
+import styles from './Content.module.scss';
 
 class ContentHeader extends React.Component {
-
     render() {
         return <div className={styles.container} >
             <NavLink to = "/" >
@@ -16,8 +13,7 @@ class ContentHeader extends React.Component {
                     </svg>
                 </div>
             </NavLink>
-
-            </div>
+        </div>
     }
 }
 

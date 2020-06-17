@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './MyWorks.module.scss';
+import { withContentHeader } from '../../../Hoc/withContentHeader';
 
-let MyWorks = (props) => {
+let LandingPages = ({thumbnails}) => {
     return  <div className={styles.container}>
-                {props.thumbnails.map(e =>
+                {thumbnails.map( e =>
                     <a target="_bind" href={e.url}>
                         <div className={styles.itemContainer}>
                             <div>
@@ -20,4 +21,4 @@ let MyWorks = (props) => {
             </div>
 }
 
-export default MyWorks;
+export default withContentHeader(LandingPages);

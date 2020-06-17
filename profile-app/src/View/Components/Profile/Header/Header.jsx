@@ -2,8 +2,8 @@ import React from 'react';
 import classes from './../../../Styles/modules/Header.module.scss';
 import CvButton from './CvButton/CvButton';
 import HeaderTitle from './HeaderTitle/HeaderTitle'
-
-let Header = () => {
+ 
+let Header = () =>    {
     return (
         <div className={classes.container}>
             <HeaderTitle />
