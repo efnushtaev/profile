@@ -2,19 +2,17 @@ import React from 'react'
 import { connect } from 'react-redux'
 import HeaderContent from './HeaderContent'
 
-
 class HeaderContentAPI extends React.Component {
-    render() {
-        <HeaderContent />
-    }
+  render () {
+    <HeaderContent />
+  }
+}
+const mapStateToProps = () => {
 
 }
-        let mapStateToProps = () => {
-    
-        }
-        let mapDispatchToProps = () => {
-    
-    }
+const mapDispatchToProps = () => {
+
+}
 
 const HeaderContentContainer = connect(mapStateToProps, mapDispatchToProps)(HeaderContentAPI)
 

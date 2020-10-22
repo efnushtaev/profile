@@ -31,5 +31,10 @@
             margin: auto
         }
     }
+}
 
+@media screen and (max-width: 959px) {
+    .container {
+        padding-left: 0px;
+    }
 }
