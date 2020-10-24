@@ -1,21 +1,31 @@
 import React from 'react';
 import s from './workItem.module.scss';
 
-export const WorkItem = ({ item }) => (
-  <div className={s.container}>
-    <a target="_bind" href={item.url}>
-      <div className={s.tags}>
-        <span>spa</span>
-        <span>landing</span>
-      </div>
-      {/* <div>
-        <p className={s.title}>{item.title}</p>
-        <p className={s.technology}>{item.technology}</p>
-        <p className={s.describe}>{item.describe}</p>
-        <p className={s.year}>{item.year}</p>
-        <a target="_bind" className={s.gitHubLink} href={item.gitHubRepoURL}>{item.gitHubRepoURL !== '#' ? "Посмотреть код на GitHub" : null}</a>
-      </div> */}
+export const WorkItem = ({ item }) => {
+  const { title, describe } = item;
+
+  const tags = ['landings', 'spa'];
+  const technology = ['HTML5', 'CSS3'];
+
+  return (
+    <div className={s.container}>
+      <a target="_bind" className={s.link} href={item.url}>
+        <div className={s.tags}>
+          {tags.map(item => <span>{item}</span>)}
+        </div>
+        <div className={s.content}>
+          <div>
+            <div className={s.title}>
+              {title}
+            </div>
+            <div className={s.technology}>
+              <span> • </span>{technology.map(item => <span>{item} • </span>)}
+            </div>
+          </div>
+          <div className={s.describe}>{describe}</div>
+        </div>
+        <a className={s.gitHubLink} href={item.url}></a>
+      </a>
       <img src={item.picture} alt="" />
-    </a>
-  </div>
-);
+    </div>);
+};
