@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import styles from './Spa.module.scss';
 import { withContentHeader } from '../../../Hoc/withContentHeader';

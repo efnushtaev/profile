@@ -8,14 +8,14 @@ const initialState = {
 
 export const myWorksPageReducer = (state = initialState, action) => {
   switch (action.type) {
-    case SET_CURRENT_SCROLLTOP: {
-      return {
-        ...state,
-        currentScrollTop: action.currentScrollTop
-      };
-    }
-    default:
-      return state;
+  case SET_CURRENT_SCROLLTOP: {
+    return {
+      ...state,
+      currentScrollTop: action.currentScrollTop
+    };
+  }
+  default:
+    return state;
   }
 };
 
