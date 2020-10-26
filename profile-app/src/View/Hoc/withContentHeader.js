@@ -1,5 +1,5 @@
 import React from 'react';
-import ContentHeader from './../Components/Content/ContentHeader';
+import ContentHeader from '../Components/Content/Header/ContentHeader';
 import { connect } from 'react-redux';
 
 export const withContentHeader = Component => {
@@ -10,9 +10,9 @@ export const withContentHeader = Component => {
           <ContentHeader/>
           <Component {...this.props} />
         </>
-      )
+      );
     }
   }
 
-  return ContentHeaderComponent
-}
+  return ContentHeaderComponent;
+};

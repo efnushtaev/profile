@@ -1,4 +1,4 @@
-import Piroll from './../View/Assets/img/myWorks/thumbnails/piroll.jpg'
+import Piroll from './../View/Assets/img/myWorks/thumbnails/piroll.jpg';
 import Nineshop from './../View/Assets/img/myWorks/thumbnails/9market.jpg';
 import Innobet from './../View/Assets/img/myWorks/thumbnails/inno.jpg';
 import NaniHotel from './../View/Assets/img/myWorks/thumbnails/nani.jpg';
@@ -63,4 +63,4 @@ export const myWorksData = {
   }
 
   ]
-}
+};

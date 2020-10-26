@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './Spa.module.scss'
-import { withContentHeader } from '../../../Hoc/withContentHeader'
+import React from 'react';
+import styles from './Spa.module.scss';
+import { withContentHeader } from '../../../Hoc/withContentHeader';
 
 const Spa = ({ spaItems }) => {
   return <div className={styles.container}>
@@ -11,7 +11,7 @@ const Spa = ({ spaItems }) => {
         <a className={styles.gitHubLink} target="_bind" href={e.gitHubLink}>Посмотреть код на GitHub</a>
       </div>
     )}
-  </div>
-}
+  </div>;
+};
 
-export default withContentHeader(Spa)
+export default withContentHeader(Spa);

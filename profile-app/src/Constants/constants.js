@@ -21,6 +21,6 @@ const config = {
     }
   ]
   // __footer
-}
+};
 
-export default config
+export default config;

@@ -1,7 +1,7 @@
 import config from './../../Config/constants';
 
 const constantsReducer = (state = config) => {
-  return state
-}
+  return state;
+};
 
 export default constantsReducer;
