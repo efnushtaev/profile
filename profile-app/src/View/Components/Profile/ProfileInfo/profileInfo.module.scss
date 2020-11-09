@@ -1,4 +1,4 @@
-@import './../../../Config/config.scss';
+@import './../../../../Config/config.scss';
 
 .container {
     color: darkorange;
@@ -61,15 +61,15 @@ margin-top: 0px;
             }
 
             a:nth-child(1) {
-                background: url('#{$IMG_PATH}github.svg') center center no-repeat;
+                background: url('../../../Assets/img/main/github.svg') center center no-repeat;
             }
 
             a:nth-child(2) {
-                background: url('#{$IMG_PATH}codepen.svg') center center no-repeat;
+                background: url('../../../Assets/img/main/codepen.svg') center center no-repeat;
             }
             
             a:nth-child(3) {
-                background: url('#{$IMG_PATH}linkedin.svg') center center no-repeat;
+                background: url('../../../Assets/img/main/linkedin.svg') center center no-repeat;
             }
 
             a:hover {

@@ -1,60 +1,59 @@
 .container {
-    padding-top: 80px;
-    @media screen and (max-width: 959px) {
-padding: 10px;
-padding-top: 40px;
-      }
+  padding-top: 80px;
+  @media screen and (max-width: 959px) {
+    padding: 10px;
+    padding-top: 40px;
+  }
 }
 
 .item {
-    padding-bottom: 72px;
-    &:nth-last-child(1){
-        padding-bottom: 0px;
-    }
+  padding-bottom: 72px;
+  &:nth-last-child(1) {
+    padding-bottom: 0px;
+  }
 
-    img {
-        padding: 20px 0px;
-        display: block;
-        margin-right: 0px;
-        margin-left: auto;
-    }
+  img {
+    padding: 20px 0px;
+    display: block;
+    margin-right: 0px;
+    margin-left: auto;
+  }
 
-    p:nth-child(1) {
-        font-family: Open Sans, sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        text-align: right;
-        font-feature-settings: 'pnum'on, 'lnum'on;
-        color: #EBECF3;
-        font-size: 100px;
-        line-height: 100px;
-    }
+  p:nth-child(1) {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: right;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #ebecf3;
+    font-size: 100px;
+    line-height: 100px;
+  }
 
-    p:nth-child(2) {
-        padding: 16px 0px;
-        font-family: Noto Sans, sans-serif;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 16px;
-        line-height: 31px;
-        text-align: right;
-        letter-spacing: 0.07em;
-        text-transform: capitalize;
-        font-feature-settings: 'pnum'on, 'lnum'on;
-        color: #4762EF;
-        white-space: pre-wrap;
-    }
+  p:nth-child(2) {
+    padding: 16px 0px;
+    font-family: Noto Sans, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: right;
+    letter-spacing: 0.07em;
+    text-transform: capitalize;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #4762ef;
+    white-space: pre-wrap;
+  }
 
-    p:nth-child(3) {
-        font-family: Merriweather, serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 24px;
-        text-align: right;
-        letter-spacing: 0.02em;
-        font-feature-settings: 'pnum'on, 'lnum'on;
-        color: #6B6F8B;
-    }
-
+  p:nth-child(3) {
+    font-family: Merriweather, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #6b6f8b;
+  }
 }

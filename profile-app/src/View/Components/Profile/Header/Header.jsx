@@ -1,18 +1,18 @@
 import React from 'react';
-import classes from './../../../Styles/modules/Header.module.scss';
+import classes from './header.module.scss';
 import CvButton from './CvButton/CvButton';
-import HeaderTitle from './HeaderTitle/HeaderTitle'
- 
-let Header = () =>    {
-    return (
-        <div className={classes.container}>
-            <HeaderTitle />
-            <div className={classes.subHeader}>
-                <div className={classes.avatar}></div>
-                <CvButton />
-            </div>
-        </div>
-    )
-}
+import HeaderTitle from './HeaderTitle/HeaderTitle';
 
-export default Header
+const Header = () => {
+  return (
+    <div className={classes.container}>
+      <HeaderTitle />
+      <div className={classes.subHeader}>
+        <div className={classes.avatar}></div>
+        <CvButton />
+      </div>
+    </div>
+  );
+};
+
+export default Header;

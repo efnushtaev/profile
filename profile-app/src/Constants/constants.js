@@ -8,15 +8,15 @@ const config = {
   // __navig
   navigItems: [
     {
-      title: 'Лендинги',
-      url: '/landing-pages'
+      title: 'Обо мне',
+      url: '/about'
     },
     {
-      title: 'SPA',
-      url: '/spa'
+      title: 'Мои работы',
+      url: '/my-works'
     },
     {
-      title: 'Дизайн',
+      title: 'Креативы',
       url: '/design'
     }
   ]

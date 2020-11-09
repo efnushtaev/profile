@@ -1,4 +1,4 @@
-import { myWorksData } from './../../Config/constantsContent';
+import { myWorksData } from '../../mock';
 
 const SET_CURRENT_SCROLLTOP = 'SET_CURRENT_SCROLLTOP';
 

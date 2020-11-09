@@ -1,24 +1,8 @@
-
-import { connect } from 'react-redux';
 import React from 'react';
-import Content from './Content';
-import classes from './Content.module.scss';
+import { Content } from './Content';
+import styles from './content.module.scss';
+import { myWorksData } from '../../../mock';
 
-class ContentContainer extends React.Component {
-  render () {
-    return <Content
-      className={classes.contentBody}
-      thumbnails={this.props.thumbnails}
-      spaItems={this.props.spaItems}
-    />;
-  }
-}
-
-const mapStateToProps = state => {
-  return {
-    thumbnails: state.myWorksPage.thumbnails,
-    spaItems: state.myWorksPage.spaItems
-  };
+export const ContentContainer = () => {
+  return <Content myWorksData={myWorksData} className={styles.contentBody} />;
 };
-
-export default connect(mapStateToProps)(ContentContainer);

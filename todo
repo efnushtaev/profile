@@ -1,2 +1,7 @@
 --галерея фото
 https://openbase.io/js/react-photo-gallery
+
+
+1. Заменить technology<string> на <array>
+profile-app\src\mock.js:20:0
+

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import App from './App';
-import { setCurrentScrollTopAC } from './Redux/reducer/myWorks-reducer';
+import { setCurrentScrollTopAC } from './../../Redux/reducer/myWorks-reducer';
 
 const mapStateToProps = (state) => {
   return {
@@ -15,6 +15,7 @@ const mapDispatchToProps = (dispatch) => {
     }
   };
 };
+
 const AppContainer = connect(mapStateToProps, mapDispatchToProps)(App);
 
 export default AppContainer;

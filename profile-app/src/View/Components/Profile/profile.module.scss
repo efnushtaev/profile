@@ -1,13 +1,13 @@
 @import './../../../Config/config.scss';
 
 .container {
-    // background: url('./../#{$IMG_PATH}main_bg.svg') center center no-repeat;
-    grid-area: leftsidebar;
-    box-sizing: border-box;
-    padding: 40px 30px 0px 30px;
-    background: #ebecf3;
-    @media screen and (max-width: 959px) {
-        background: #fff; 
-        padding: 0px 0px 0px 0px;
-      }
+  // background: url('./../#{$IMG_PATH}main_bg.svg') center center no-repeat;
+  grid-area: leftsidebar;
+  box-sizing: border-box;
+  padding: 40px 30px 0px 30px;
+  background: #ebecf3;
+  @media screen and (max-width: 959px) {
+    background: #fff;
+    padding: 0px 0px 0px 0px;
+  }
 }

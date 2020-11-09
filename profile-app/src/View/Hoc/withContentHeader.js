@@ -6,7 +6,7 @@ export const withContentHeader = Component => {
     render () {
       return (
         <>
-          <ContentHeader/>
+          {/* <ContentHeader/> */}
           <Component {...this.props} />
         </>
       );
